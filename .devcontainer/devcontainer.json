@@ -31,7 +31,7 @@
 		}
 	},
 	"mounts": [
-		"type=bind,source=/home/${localEnv:USER}/.ssh,target=/root/.ssh,readonly"
+		"type=bind,source=/home/${localEnv:USER}/.ssh,target=/root/.ssh,readonly",
 		"type=bind,source=/home/${localEnv:USER}/data/web3/personal,target=/root/data/web3/personal,readonly"
 	]
 }
